@@ -1,7 +1,9 @@
-import tensorflow as tf
-gf = tf.GraphDef()   
-m_file = open('models/edges2shoes_AtoB/graph.pb','rb')
-gf.ParseFromString(m_file.read())
+'''
+TODO - write this script
+Converting from .pb to .tflite requires information about 
+input and output tensor dimensions, and name in the model - 
+I was having an enormously difficult time figuring this out
+for the pix2pix model, will need to find these to keep this going
+'''
 
-for node in gf.node:
-    print(node.name)
+import tensorflow as tf
