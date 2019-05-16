@@ -13,6 +13,6 @@ the conversions necessary to get the model into a format that will work for mobi
 devices with Firebase (.tflite).
 
 Getting into implementing this has revealed itself to be much more complicated than I
-initially thought and will take more time than I had anticiptaed. I will likely end up
+initially thought and will take more time than I had anticipated. I will likely end up
 creating my own version of the model in Keras in the future. As of May 2019, I'm putting this
 on hold to work on other projects.
